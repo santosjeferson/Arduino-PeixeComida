@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0091f7" />
+    <title>Aquário inteligente</title>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="js/index.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div>
+        <h2 class="informes1">Aquário inteligente</h2>
+        <h2 class="informes2">Oxigênio</h2>
+        <h2 class="informes3">Luz</h2>
+
+    </div>
+
+
+    <form method="GET">
+        <input type='submit' class='btn1 btn btn-primary' onclick="_Comida()" value='Comida' id='Comida'>
+        <input type="submit" class="btnluz btn btn-secondary" onclick="ONLUZ()" value="On" id="Onluz">
+        <input type="submit" class="btn2luz btn btn-info" onclick="OFFLUZ()" value="Off" id="Offluz">
+    </form>
+
+    <form method="GET">
+        <input type="submit" class="btn2 btn btn-secondary" onclick="ON()" value="On" id="On">
+        <input type="submit" class="btn3 btn btn-info" onclick="OFF()" value="Off" id="Off">
+        <input type='submit' class="btn4 btn btn-success" onclick="_TIMER()" value="Tempo" id="timer">
+    </form>
+
+    <div class="tabelas">
+        <table class="tb1">
+            <tr>
+                <th>Última</th>
+            </tr>
+            <tbody id="myTable"></tbody>
+        </table>
+
+        <table class="tb2">
+            <tr>
+                <th>Próxima</th>
+            </tr>
+            <tbody class="tbdados" id="myTable2"></tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

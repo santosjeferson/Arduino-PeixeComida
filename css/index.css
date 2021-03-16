@@ -1,0 +1,307 @@
+body {
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial;
+    display: inline-block;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.btn1 {
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.btn2 {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.btn3 {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.btn4 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 120px;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.btnluz {
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.btn2luz {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 3.0rem;
+}
+
+p {
+    font-size: 3.0rem;
+}
+
+.informes1 {
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    font-family: 'Tangerine', serif;
+    font-size: 84px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.informes2 {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.informes3 {
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.tb1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 2%;
+    float: left;
+    height: 50px;
+    border: none;
+}
+
+.tb2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 1%;
+    height: 50px;
+    border: none;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabelas {
+    position: absolute;
+    font-weight: bold;
+    top: 338px;
+    margin-left: 4%;
+    width: 28%;
+    left: 30%;
+    height: 240px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    box-shadow: 10 0 10px #202020;
+}
+
+.indice {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 380px) and (orientation: portrait) {
+    body {
+        background-image: url("../imagens/moble_fundo.jpg");
+        background-repeat: no-repeat;
+        position: absolute;
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+    .btn1 {
+        top: 210px;
+        left: 100px;
+        font-size: 25px;
+        width: 127px;
+    }
+    .btn2 {
+        top: 150px;
+        left: 228px;
+        font-size: 25px;
+    }
+    .btn3 {
+        top: 150px;
+        left: 290px;
+        font-size: 25px;
+    }
+    .btn4 {
+        top: 210px;
+        left: 260px;
+        font-size: 25px;
+    }
+    .btnluz {
+        top: 150px;
+        left: 65px;
+        font-size: 25px;
+    }
+    .btn2luz {
+        top: 150px;
+        left: 130px;
+        font-size: 25px;
+    }
+    .informes1 {
+        top: 38px;
+        left: 178px;
+        width: 285px;
+        text-shadow: 4px 4px 4px #aaa;
+        font-size: 55px;
+        transform: translate(-50%, -50%);
+        color: #000000;
+    }
+    .informes2 {
+        top: 90px;
+        left: 260px;
+        font-size: 25px;
+        color: #000000;
+    }
+    .informes3 {
+        top: 90px;
+        left: 90px;
+        font-size: 25px;
+        color: #000000;
+    }
+    .tb1 {
+        width: 122px;
+        left: 2px;
+        height: 30px;
+    }
+    .tb2 {
+        width: 122px;
+        left: 2px;
+        height: 30px;
+    }
+    th,
+    td {
+        text-align: center;
+        padding: 3.5px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .tabelas {
+        top: 260px;
+        width: 258px;
+        left: 52px;
+        font-size: 12.2px;
+        height: 125px;
+        box-shadow: 0 0 10px #202020;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    body {
+        background-image: url("../imagens/moble_fundo.jpg");
+        background-repeat: no-repeat;
+    }
+    .btn {
+        top: 35%;
+        left: 28%;
+        padding: 7px 10px;
+        font-size: 8x;
+    }
+    .btn2 {
+        top: 23%;
+        left: 61%;
+        font-size: 10x;
+    }
+    .btn3 {
+        top: 23%;
+        left: 82%;
+        font-size: 10x;
+    }
+    .btn4 {
+        top: 35%;
+        left: 72%;
+        font-size: 8x;
+    }
+    .btnluz {
+        top: 23%;
+        left: 18%;
+        font-size: 10x;
+    }
+    .btn2luz {
+        top: 23%;
+        left: 38%;
+        font-size: 10x;
+    }
+    .informes1 {
+        top: 5%;
+        left: 52%;
+        width: 95%;
+        font-size: 24px;
+    }
+    .informes2 {
+        top: 13%;
+        left: 69%;
+        font-size: 21px;
+    }
+    .informes3 {
+        top: 13%;
+        left: 30%;
+        font-size: 21px;
+    }
+    .tb1 {
+        width: 39%;
+        left: -2%;
+        height: 30px;
+    }
+    .tb2 {
+        width: 39%;
+        left: 3%;
+    }
+    th,
+    td {
+        text-align: center;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .tabelas {
+        top: 225px;
+        width: 100%;
+        left: 5%;
+        font-size: 12px;
+        height: 130px;
+        box-shadow: 0 0 10px #202020;
+    }
+}
