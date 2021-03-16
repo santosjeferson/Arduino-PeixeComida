@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(115200);
 
   // Connect to WiFi
-  WiFi.begin("Jeferson Oliveira", "printfcomandoseguro");
+  WiFi.begin("RedeWifi", "SenhaWifi");
 
  while (WiFi.status() != WL_CONNECTED) {
     delay(500);
@@ -38,7 +38,7 @@ void setup() {
   Serial.print(WiFi.localIP());
  
 
-  Firebase.begin("alimentadordepeixes-228ea.firebaseio.com", "JwRV38zTvv3SqLiIQNkTniosVsBj57o3cIQo6DXc");
+  Firebase.begin("CaminhoDBFirebase", "SenhaDBFirebase");
   timeClient.begin();
 
 }
